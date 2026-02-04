@@ -3,7 +3,7 @@
 This project builds a clean machine learning pipeline to detect congestion or incidents from pre-extracted aerial imagery features. Each row in the dataset represents a road-segment tile with numeric features, and the label is binary: `normal` vs `congestion_or_incident`.
 
 ## Project Structure
-
+```
 traffic_congestion_capstone/
 │── data/
 │── src/
@@ -16,7 +16,7 @@ traffic_congestion_capstone/
 │── train.py
 │── requirements.txt
 │── README.md
-
+```
 ## Features Used
 
 - vehicle_density
@@ -73,3 +73,4 @@ Outputs:
 - Try gradient boosting models (XGBoost/LightGBM)
 - Add calibration for probability outputs
 - Integrate time-windowed features for trend detection
+
